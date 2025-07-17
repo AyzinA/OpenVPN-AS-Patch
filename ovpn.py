@@ -141,7 +141,7 @@ def patch() -> None:
         with zipfile.ZipFile(dest_egg, "w", zipfile.ZIP_DEFLATED) as zf:
             for f in extract_dir.rglob("*"):
                 zf.write(f, f.relative_to(extract_dir))
-        logger.info(f"Repacked egg to {dest_egg}")
+        logger.debug(f"Repacked egg to {dest_egg}")
 
         # Backup original egg
         timestamp = datetime.now(timezone.utc).strftime(TIMESTAMP_FORMAT)
