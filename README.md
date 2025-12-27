@@ -29,7 +29,7 @@ The utility has been verified to work on the following versions:
 ### Download the Script
 
 ```bash
-wget -O ovpn.py https://raw.githubusercontent.com/AyzinA/OpenVPN-AS-Patch/refs/heads/master/ovpn.py
+wget -O ovpn.py https://raw.githubusercontent.com/AyzinA/OpenVPN-AS-Patch/master/ovpn.py
 
 ```
 
