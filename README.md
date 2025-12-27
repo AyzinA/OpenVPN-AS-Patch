@@ -53,6 +53,14 @@ This script patches OpenVPN Access Server to allow 200 concurrent VPN connection
    sudo python3 ovpn.py
    ```
 
+   **On OpenVPN-AS 3+ run this:**
+      ```sh
+   sudo apt update
+   sudo apt-get install -y python3-pip
+   sudo pip3 install colorama
+   sudo python3 ./ovpn.py
+   ```
+
    Select `1` to patch or `q` to quit.
 4. **Restart OpenVPN-AS**:
 
