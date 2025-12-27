@@ -5,8 +5,8 @@ This script patches OpenVPN Access Server to allow 200 concurrent VPN connection
 **Note**: Modifying OpenVPN-AS may violate its license agreement.
 
 **Tested on:**
--OpenVPN Access Server 2.14.3 (Docker)
--OpenVPN Access Server 3.0.2 (Docker)
+ -OpenVPN Access Server 2.14.3 (Docker)
+- OpenVPN Access Server 3.0.2 (Docker)
 
 ## How to Use
 
