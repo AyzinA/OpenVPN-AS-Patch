@@ -32,7 +32,11 @@ The utility has been verified to work on the following versions:
 wget -O ovpn.py https://raw.githubusercontent.com/AyzinA/OpenVPN-AS-Patch/master/ovpn.py
 
 ```
+or
+```bash
+curl -o ovpn.py https://raw.githubusercontent.com/AyzinA/OpenVPN-AS-Patch/master/ovpn.py
 
+```
 
 ### Option 1: Using Docker (Recommended)
 
