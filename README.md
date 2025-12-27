@@ -79,7 +79,7 @@ This script patches OpenVPN Access Server to allow 200 concurrent VPN connection
 ---
 services:
   openvpn-as:
-    image: openvpn/openvpn-as
+    image: openvpn/openvpn-as:3.0.2-87c70987-Ubuntu24
     container_name: openvpn-as
     restart: unless-stopped
     ports:
