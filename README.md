@@ -1,9 +1,12 @@
 # OpenVPN Access Server Patch Utility
 
-A Python utility to patch OpenVPN Access Server (AS) by modifying the `pyovpn-*.egg` file, increasing the concurrent VPN connection limit to **200**.
+A Python utility to patch OpenVPN Access Server (AS) by modifying the `pyovpn-*.egg` file,
+increasing the concurrent VPN connection limit to **200**.
 
 > [!WARNING]
-> **Legal Notice:** Modifying OpenVPN-AS may violate its License Agreement. Use this utility for educational or testing purposes only. Always back up your configuration before applying patches.
+> **Legal Notice:** Modifying OpenVPN-AS may violate its License Agreement.
+> Use this utility for educational or testing purposes only.
+> Always back up your configuration before applying patches.
 
 ---
 
