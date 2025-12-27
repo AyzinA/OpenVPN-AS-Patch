@@ -27,7 +27,7 @@ This script patches OpenVPN Access Server to allow 200 concurrent VPN connection
       ```sh
    docker exec -it openvpn-as apt-get update
    docker exec -it openvpn-as apt-get install -y python3-pip
-   docker exec -it openvpn-as pip3 install colorama
+   docker exec -it openvpn-as pip3 install colorama --break-system-packages
    docker exec -it openvpn-as python3 /tmp/ovpn.py
    ```
 
@@ -57,7 +57,7 @@ This script patches OpenVPN Access Server to allow 200 concurrent VPN connection
       ```sh
    sudo apt update
    sudo apt-get install -y python3-pip
-   sudo pip3 install colorama
+   sudo pip3 install colorama --break-system-packages
    sudo python3 ./ovpn.py
    ```
 
