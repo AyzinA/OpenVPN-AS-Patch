@@ -35,7 +35,7 @@ This script patches OpenVPN Access Server to allow 200 concurrent VPN connection
 4. **Restart OpenVPN-AS**:
 
    ```sh
-   docker exec openvpn-as systemctl restart openvpn-as
+   docker exec openvpn-as systemctl restart openvpnas
    ```
 
    Or:
@@ -65,7 +65,7 @@ This script patches OpenVPN Access Server to allow 200 concurrent VPN connection
 4. **Restart OpenVPN-AS**:
 
    ```sh
-   sudo systemctl restart openvpn-as
+   sudo systemctl restart openvpnas
    ```
 
 ## Docker Compose Example
